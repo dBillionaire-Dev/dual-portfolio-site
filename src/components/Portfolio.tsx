@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './Header';
 import Hero from './Hero';
 import ServicesSection from './ServicesSection';
+import SkillsSection from './SkillsSection';
 import ToolsSection from './ToolsSection';
 import TestimonialSection from './TestimonialSection';
 import CaseStudiesSection from './CaseStudiesSection';
@@ -61,6 +62,8 @@ const Portfolio = () => {
 
       <div className="animate-fade-in">
         <ServicesSection services={currentData.services} />
+
+        <SkillsSection skills={currentData.skills} />
 
         <ToolsSection tools={currentData.tools} />
 

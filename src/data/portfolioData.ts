@@ -26,6 +26,25 @@ export const virtualAssistantData = {
       icon: Plane
     }
   ],
+  skills: [
+    { name: "Organization", category: "core" as const },
+    { name: "Time Management", category: "core" as const },
+    { name: "Communication", category: "core" as const },
+    { name: "Data Entry", category: "core" as const },
+    { name: "Customer Service", category: "core" as const },
+    { name: "Project Coordination", category: "core" as const },
+    { name: "Problem-Solving", category: "core" as const },
+    { name: "Gmail", category: "technical" as const },
+    { name: "Google Calendar", category: "technical" as const },
+    { name: "Microsoft Office", category: "technical" as const },
+    { name: "Excel", category: "technical" as const },
+    { name: "Slack", category: "technical" as const },
+    { name: "Trello", category: "technical" as const },
+    { name: "Asana", category: "technical" as const },
+    { name: "Notion", category: "technical" as const },
+    { name: "Canva", category: "technical" as const },
+    { name: "Zoom", category: "technical" as const }
+  ],
   tools: [
     { name: "Gmail", icon: "📧", category: "Email" },
     { name: "Google Calendar", icon: "📅", category: "Scheduling" },
@@ -119,6 +138,26 @@ export const productManagerData = {
       description: "Clear communication across all stakeholders",
       icon: MessageSquare
     }
+  ],
+  skills: [
+    { name: "Strategic Thinking", category: "core" as const },
+    { name: "Market Research", category: "core" as const },
+    { name: "Prioritization", category: "core" as const },
+    { name: "Communication", category: "core" as const },
+    { name: "Collaboration", category: "core" as const },
+    { name: "Problem-Solving", category: "core" as const },
+    { name: "Product Development", category: "core" as const },
+    { name: "Jira", category: "technical" as const },
+    { name: "Notion", category: "technical" as const },
+    { name: "Figma", category: "technical" as const },
+    { name: "Whimsical", category: "technical" as const },
+    { name: "Balsamiq", category: "technical" as const },
+    { name: "Trello", category: "technical" as const },
+    { name: "Asana", category: "technical" as const },
+    { name: "Linear", category: "technical" as const },
+    { name: "Canva", category: "technical" as const },
+    { name: "Miro", category: "technical" as const },
+    { name: "Confluence", category: "technical" as const }
   ],
   tools: [
     { name: "Jira", icon: "🎯", category: "Project Management" },
