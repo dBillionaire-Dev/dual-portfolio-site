@@ -26,7 +26,7 @@ const Hero = () => {
             View My Work
           </Button>
           <Button variant="outline" size="lg" className="px-8 py-3 rounded-lg">
-            Contact Me
+            <a href="#contact-section">Contact Me</a>
           </Button>
         </div>
       </div>
