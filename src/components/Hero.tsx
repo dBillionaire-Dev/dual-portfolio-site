@@ -2,6 +2,13 @@
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="py-20 px-4 bg-gradient-to-br from-background to-muted/30">
       <div className="max-w-4xl mx-auto text-center">
@@ -22,13 +29,23 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="px-8 py-3 rounded-lg">
+          <Button
+            size="lg"
+            className="px-8 py-3 rounded-lg"
+            onClick={() => scrollToSection('case-studies')}
+          >
             View My Work
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-3 rounded-lg">
-            <a href="#contact-section">Contact Me</a>
+          <Button
+            variant="outline"
+            size="lg"
+            className="px-8 py-3 rounded-lg"
+            onClick={() => scrollToSection('contact')}
+          >
+            Contact Me
           </Button>
         </div>
+
       </div>
     </section>
   );
