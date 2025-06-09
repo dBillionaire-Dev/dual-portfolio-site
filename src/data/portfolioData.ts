@@ -33,23 +33,19 @@ export const virtualAssistantData = {
     { name: "Data Entry", category: "core" as const },
     { name: "Customer Service", category: "core" as const },
     { name: "Project Coordination", category: "core" as const },
-    { name: "Problem-Solving", category: "core" as const },
-    { name: "Gmail", category: "technical" as const },
-    { name: "Google Calendar", category: "technical" as const },
-    { name: "Microsoft Office", category: "technical" as const },
-    { name: "Excel", category: "technical" as const },
-    { name: "Slack", category: "technical" as const },
-    { name: "Trello", category: "technical" as const },
-    { name: "Asana", category: "technical" as const },
-    { name: "Notion", category: "technical" as const },
-    { name: "Canva", category: "technical" as const },
-    { name: "Zoom", category: "technical" as const }
+    { name: "Problem-Solving", category: "core" as const }
   ],
   tools: [
-    { name: "Gmail", icon: "📧", category: "Email" },
-    { name: "Google Calendar", icon: "📅", category: "Scheduling" },
-    { name: "Excel", icon: "📊", category: "Data" },
-    { name: "Slack", icon: "💬", category: "Communication" }
+    { name: "Gmail", icon: "📧", category: "technical" },
+    { name: "Google Calendar", icon: "📅", category: "technical" },
+    { name: "Microsoft Office", icon: "🗂️", category: "technical" },
+    { name: "Excel", icon: "📊", category: "technical" },
+    { name: "Slack", icon: "💬", category: "technical" },
+    { name: "Trello", icon: "📋", category: "technical" },
+    { name: "Asana", icon: "✅", category: "technical" },
+    { name: "Notion", icon: "🧠", category: "technical" },
+    { name: "Canva", icon: "🎨", category: "technical" },
+    { name: "Zoom", icon: "🎥", category: "technical" }
   ],
   testimonial: {
     text: "Annie's administrative support has been invaluable to our team. Her attention to detail and proactive communication style has improved our workflow significantly.",
@@ -146,25 +142,23 @@ export const productManagerData = {
     { name: "Communication", category: "core" as const },
     { name: "Collaboration", category: "core" as const },
     { name: "Problem-Solving", category: "core" as const },
-    { name: "Product Development", category: "core" as const },
-    { name: "Jira", category: "technical" as const },
-    { name: "Notion", category: "technical" as const },
-    { name: "Figma", category: "technical" as const },
-    { name: "Whimsical", category: "technical" as const },
-    { name: "Balsamiq", category: "technical" as const },
-    { name: "Trello", category: "technical" as const },
-    { name: "Asana", category: "technical" as const },
-    { name: "Linear", category: "technical" as const },
-    { name: "Canva", category: "technical" as const },
-    { name: "Miro", category: "technical" as const },
-    { name: "Confluence", category: "technical" as const }
+    { name: "Product Development", category: "core" as const }
   ],
   tools: [
-    { name: "Jira", icon: "🎯", category: "Project Management" },
-    { name: "Figma", icon: "🎨", category: "Design" },
-    { name: "Analytics", icon: "📈", category: "Data" },
-    { name: "Slack", icon: "💬", category: "Communication" }
-  ],
+    { name: "Jira", icon: "🎯", category: "Project Tracking" },
+    { name: "Figma", icon: "🎨", category: "Design Collaboration" },
+    { name: "Slack", icon: "💬", category: "Team Communication" },
+    { name: "Notion", icon: "🧠", category: "Knowledge Base" },
+    { name: "Whimsical", icon: "✨", category: "User Flow & Wireframing" },
+    { name: "Balsamiq", icon: "📝", category: "Wireframing" },
+    { name: "Trello", icon: "📋", category: "Task Management" },
+    { name: "Asana", icon: "✅", category: "Project Planning" },
+    { name: "Linear", icon: "📈", category: "Issue Tracking" },
+    { name: "Canva", icon: "🎨", category: "Marketing Design" },
+    { name: "Miro", icon: "🧩", category: "Collaboration & Mapping" },
+    { name: "Confluence", icon: "📘", category: "Documentation" }
+  ]
+  ,
   testimonial: {
     text: "Annie's product leadership transformed our development process. Her strategic thinking and user-centric approach helped us deliver features that truly resonate with our customers.",
     author: "Michael Chen",
