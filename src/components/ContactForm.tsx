@@ -34,7 +34,7 @@ const ContactForm = ({ isOpen, onClose, role }: ContactFormProps) => {
         const form = e.currentTarget;
         const formData = new FormData(form);
 
-        fetch('https://formspree.io/f/mwpbllae', {
+        fetch('https://formspree.io/f/mqabpqkq', {
             method: 'POST',
             body: formData,
             headers: { Accept: 'application/json' },
