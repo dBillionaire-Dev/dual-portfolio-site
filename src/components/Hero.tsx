@@ -25,7 +25,7 @@ const Hero = () => {
           Hello, I'm Aniekan-Abasi Udofia
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-          Versatile professional specializing in administrative excellence as a Virtual Assistant and strategic product development as a Product Manager. I help businesses streamline operations and drive product success.
+          I turn chaos into clarity, optimizing workflows as a Virtual Assistant and shaping ideas into impactful products that users love as a Product Manager. Obsessed with turning "what if" ideas into "what’s next" solutions with clean workflows and strategic thinking.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

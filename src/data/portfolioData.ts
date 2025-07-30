@@ -54,58 +54,61 @@ export const virtualAssistantData = {
   },
   caseStudies: [
     {
-      title: "Streamlined Healthcare Scheduling System",
-      description: "Implemented a comprehensive appointment management system for a busy medical practice, reducing scheduling conflicts and improving patient satisfaction.",
-      metric: "90% reduction in appointment conflicts",
+      title: "Automating Expense Reports ",
+      description: "Implemented an automated expense reporting system using Google Sheets, reducing manual entry time by 8 hours per month by auto-forwarding and organizing receipts directly into a shared spreadsheet.",
+      metric: "Set up auto-forwarding of receipts to Sheets, reducing manual entry time by 8 hours/month",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
-      fullDescription: "Led the complete overhaul of a medical practice's scheduling system, implementing digital solutions that transformed their patient appointment management process. The project involved analyzing existing workflows, identifying pain points, and creating a seamless digital experience for both staff and patients.",
+      fullDescription: "Led the automation of a manual expense reporting process by leveraging Google Sheets, streamlining receipt collection and categorization. Designed and implemented an auto-forwarding system that captured email receipts directly into a structured spreadsheet, eliminating repetitive data entry and saving the finance team over 8 hours per month.",
       challenges: [
-        "Manual scheduling process causing frequent double-bookings",
-        "No centralized system for patient information",
-        "High staff turnover due to administrative burden",
-        "Patient complaints about scheduling difficulties"
+        "Expense reports were filled manually, leading to frequent errors and inconsistencies",
+        "Team members spent excessive time organizing and submitting receipts",
+        "Lack of real-time visibility into departmental spending",
+        "Delays in monthly reporting due to disorganized documentation"
       ],
       solutions: [
-        "Implemented Google Calendar integration with automated scheduling",
-        "Created digital patient database with comprehensive records",
-        "Developed staff training protocols for new system",
-        "Established automated reminder system for patients"
+        "Set up auto-forwarding of email receipts directly into a Google Sheets dashboard",
+        "Used Google Sheets formulas to categorize and sum expenses dynamically",
+        "Integrated timestamps and filters to track expenses in real-time",
+        "Developed a simple template for consistent formatting across teams"
       ],
       results: [
-        "90% reduction in scheduling conflicts within first month",
-        "50% decrease in patient wait times",
-        "75% improvement in staff efficiency",
-        "98% patient satisfaction rate with new booking system"
+        "Saved an average of 8 hours/month previously spent on manual data entry",
+        "Improved accuracy of reports by eliminating manual errors",
+        "Enabled real-time expense tracking for faster decision-making",
+        "Increased reporting efficiency, reducing month-end close time by 40%"
       ],
-      technologies: ["Google Calendar", "Microsoft Excel", "Zapier", "WhatsApp Business"],
+      technologies: ["Google Sheets"],
       timeline: "3 months"
     },
     {
-      title: "Digital Document Organization",
-      description: "Organized and digitized 5+ years of client files for a legal firm, creating a searchable database that improved retrieval efficiency.",
-      metric: "75% faster document retrieval",
+      title: "Event Coordination Project",
+      description: "Executed end-to-end coordination for a multi-speaker virtual event, integrating Google Meet, Forms, and Notion to optimize scheduling, communication, and content delivery. Post-event, consolidated feedback into a comprehensive PowerPoint report to guide improvements for future sessions.",
+      metric: "Managed speaker schedules, sent reminder emails (95% attendance rate).",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
-      fullDescription: "Transformed a legal firm's document management system by digitizing over 10,000 client files spanning 5 years. Created a comprehensive, searchable database that revolutionized how the firm handles case documentation and client information retrieval.",
+      fullDescription: "Led the planning and execution of a virtual summit for 40+ international attendees, streamlining coordination across speakers, platforms, and time zones. Utilized tools like Notion and Google Calendar to manage schedules, automate reminders (achieving a 95% attendance rate), and create branded visual assets in Canva to enhance attendee engagement.",
       challenges: [
-        "Thousands of physical documents in disorganized filing system",
-        "Time-consuming manual search process",
-        "Risk of document loss or damage",
-        "Difficulty in sharing documents with remote team members"
+        "Coordinating multiple speakers across different time zones",
+        "Low engagement in previous events due to poor scheduling and communication",
+        "Inconsistent branding and communication materials",
+        "Lack of structured feedback collection from attendees"
       ],
       solutions: [
-        "Systematic digitization of all physical documents",
-        "Implementation of cloud-based document management system",
-        "Creation of standardized naming conventions and folder structure",
-        "Development of search functionality with metadata tagging"
+        "Centralized speaker schedules using Google Calendar, enabling real-time visibility for all stakeholders",
+        "Used Google Forms to collect participant info and preferences pre-event",
+        "Designed branded materials (agendas, invites, slides) in Canva for a cohesive visual experience",
+        "Managed event logistics and content tracking using Notion",
+        "Scheduled sessions and reminders via Google Meet integrations and email automation",
+        "Compiled post-event feedback using Google Forms and visualized insights in PowerPoint"
       ],
       results: [
-        "75% faster document retrieval time",
-        "100% of documents backed up and secure",
-        "Remote access enabled for all team members",
-        "Zero document loss incidents since implementation"
+        "Achieved 95% speaker attendance rate through effective calendar management and reminders",
+        "Increased participant satisfaction by 80% compared to previous events (via survey feedback)",
+        "Reduced event planning time by 30% through improved workflow with Notion and automation tools",
+        "Delivered a professional, well-branded event experience for over 40 attendees across 5+ countries",
+        "Collected and analyzed 100% of feedback responses, producing a report used for future improvements"
       ],
-      technologies: ["Google Drive", "Adobe Acrobat", "Microsoft OneDrive", "DocuSign"],
-      timeline: "4 months"
+      technologies: ["Google Calendar", "Google forms", "Notion", "Canva", "Powerpoint", "Google Meet"],
+      timeline: "2 months"
     }
   ]
 };

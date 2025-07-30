@@ -24,7 +24,7 @@ const CaseStudiesSection = ({ caseStudies, onViewDetail }: CaseStudiesSectionPro
   return (
     <section id="case-studies" className="py-16 px-4 bg-muted/20">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">Case Studies</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {caseStudies.map((study, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">

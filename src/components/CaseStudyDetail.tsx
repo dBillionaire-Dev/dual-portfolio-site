@@ -31,7 +31,7 @@ const CaseStudyDetail = ({ caseStudy, onBack }: CaseStudyDetailProps) => {
                     className="mb-6 hover:bg-accent/10"
                 >
                     <ArrowLeft className="h-4 w-4 mr-2" />
-                    Back to Case Studies
+                    Back to Projects
                 </Button>
 
                 <div className="space-y-8">
